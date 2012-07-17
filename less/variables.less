@@ -29,6 +29,11 @@
 @orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
+@clojureBlue:           #5B85D9;
+@clojureBlueLight:      #8DAEF2;
+@clojureGreen:          #62A632;
+@clojureGreenLight:     #9FD948;
+@clojureGray:           #F2F2F2;
 
 
 // Scaffolding
@@ -39,7 +44,7 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             @clojureBlueLight;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -73,11 +78,11 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
 
-@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackground:              @clojureGreen;
 @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 15%);
 
-@btnInfoBackground:                 #5bc0de;
-@btnInfoBackgroundHighlight:        #2f96b4;
+@btnInfoBackground:                 @clojureBlueLight;
+@btnInfoBackgroundHighlight:        @clojureBlue;
 
 @btnSuccessBackground:              #62c462;
 @btnSuccessBackgroundHighlight:     #51a351;
@@ -146,12 +151,12 @@
 // Navbar
 // -------------------------
 @navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarBackground:                @clojureGreen;
+@navbarBackgroundHighlight:       @clojureGreenLight;
 
-@navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLight;
-@navbarLinkColorHover:            @white;
+@navbarText:                      @white;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            @clojureBlueLight;
 @navbarLinkColorActive:           @navbarLinkColorHover;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      @navbarBackground;
